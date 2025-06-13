@@ -247,11 +247,20 @@ form input {
     padding: 8px;
     border: none;
     height: 40px;
-    border-radius: 4px;
+    color: white;
+    background: none;
+    border-bottom: 1px solid white;
+    /* border-radius: 4px; */
+    outline: none;
 }
 
 textarea {
-    border-radius: 12px;
+    /* border-radius: 12px; */
+    background: none;
+    color: white;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
 }
 
 
@@ -306,6 +315,7 @@ textarea {
     gap: 50px;
     justify-content: center;
 }
- .footer-section.icon i{
-    width: 50px;
+ i{
+    /* width: 50px; */
+    font-size: 50px;
 }
